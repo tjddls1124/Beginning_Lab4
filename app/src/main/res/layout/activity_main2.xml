@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    tools:context="com.example.tjddl.beginning_lab4.Main2Activity">
+
+    <TextView
+        android:id="@+id/textView_adult"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="미성년자여부" />
+
+    <Button
+        android:id="@+id/button_adult"
+        android:onClick="onClick"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="미성년자여부" />
+
+    <TextView
+        android:id="@+id/textView_lauch"
+        android:layout_width="match_parent"
+
+        android:layout_height="wrap_content"
+        android:text="오늘의 점심메뉴는" />
+
+    <Button
+        android:id="@+id/button_lunch"
+        android:onClick="onClick"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="점심메뉴는?" />
+
+    <TextView
+        android:id="@+id/textView_menu"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="좋아하는 메뉴는?" />
+
+    <Button
+        android:id="@+id/button_menu"
+        android:layout_width="match_parent"
+        android:onClick="onClick"
+        android:layout_height="wrap_content"
+        android:text="좋아하는 메뉴는?" />
+</LinearLayout>
